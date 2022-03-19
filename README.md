@@ -1,2 +1,2 @@
-# brownadrewcourse.github.io
+# Bogachev Igor
 First site
