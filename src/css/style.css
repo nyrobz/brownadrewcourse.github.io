@@ -70,3 +70,48 @@ nav{
     color: #4e5b63;
     border-radius: 10px;
 }
+
+.main_about_second{
+    height: 715px;
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px -8px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.main_about_second h2{
+    padding-top: 80px;
+    font-size: 32px;
+    color: #1c3747;
+    font-weight: bold;
+}
+
+.icon_line{
+    margin-top: 27px;
+}
+
+.second_logo{
+    width: 200px;
+    height: 200px;
+    margin: 60px 0px 0px 450px;
+    border-radius: 50%;
+    background: url(../img/background.png) 100%/cover no-repeat;
+    box-shadow: 0px 0px 55px 0px rgba(89, 134, 169, 0.2);
+}
+
+.main_about_second p{
+    text-align: start;
+    width: 730px;
+    margin-left: 200px;
+    padding-top: 30px;
+    color:3f495a ;
+}
+
+.main_about_second input{
+    margin-top: 35px;
+    border: 2px solid #4e5b63;
+    border-radius: 10px;
+    padding: 8px 34px;
+    font-size: 14px;
+    color: #4e5b63;
+    background: url(../img/icon_download.png) left/auto no-repeat ;
+}
