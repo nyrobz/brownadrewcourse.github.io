@@ -106,12 +106,132 @@ nav{
     color:3f495a ;
 }
 
-.main_about_second input{
+.button_about {
     margin-top: 35px;
     border: 2px solid #4e5b63;
     border-radius: 10px;
-    padding: 8px 34px;
+    width: 165px;
+    height: 35px;
+    margin: 40px auto;
+}
+
+.main_about_second input{
     font-size: 14px;
     color: #4e5b63;
-    background: url(../img/icon_download.png) left/auto no-repeat ;
+    background: none;
+    line-height: 30px;
+}
+
+.button_about img{
+    float:left;
+    padding: 7px 0px 0px 10px;
+}
+
+.main_what_third{
+    height: 530px;
+    background: url(../img/background_what.png) center/cover no-repeat;
+    text-align: center;
+    box-shadow: 0px -15px 27px -15px rgba(34, 60, 80, 0.2);
+}
+
+.main_what_third h2{
+    padding-top: 80px;
+    font-size: 32px;
+    color: #1c3747;
+    font-weight: bold;
+}
+
+.about_main{
+    margin-top: 130px;
+}
+.about_main img{
+    width: 50px;
+    height: 42px;
+}
+
+.about_main>div{
+    float:left;
+    width: 210px;
+    margin-left: 45px;
+}
+
+.about_main h3{
+    margin-top: 45px;
+    color: #d17700;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about_main p{
+    margin-top: 25px;
+    color:#1c3747;
+}
+
+.main_case_fourth{
+    text-align: center;
+}
+
+.main_case_fourth h2{
+    padding-top: 80px;
+    font-size: 32px;
+    color: #1c3747;
+    font-weight: bold;
+}
+
+.p_about{
+    padding: 35px 0px;
+}
+
+.slider{
+    width: 100%;
+    height: 600px;
+    background: url(../img/text_block.png) center/cover no-repeat ;
+}
+
+.under_slider{
+   width: 100%;
+   height: 130px;
+}
+
+.slider_client{
+    float: left;
+    text-align: start;
+}
+
+.slider_website{
+    text-align: start;
+    position: absolute;
+    padding-top: 50px;
+}
+
+.slider_project{
+    text-align: start;
+    padding-left: 200px;
+    float: left;
+}
+
+.visit_live{
+    width: 200px;
+    height: 45px;
+    display: block;
+    position: absolute;
+    font-size: 17px;
+    margin-top: 100px;
+    background: #63b5ae;
+    color:#fff;
+    border-radius: 10px;
+    text-transform: uppercase;
+
+}
+
+.under_slider h3{
+    color:#384354;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.under_slider p{
+    padding-top: 5px;
+    color:#1c3747;
 }
