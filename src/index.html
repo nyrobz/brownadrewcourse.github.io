@@ -115,13 +115,13 @@
                     <h3>Website:</h3>
                     <p>http://www.somedomain.com</p>
                 </div>
-                <div class="slider_project">
-                     <h3>Название проекта</h3>
-                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-                 </div>
+            </div>
+            <div class="slider_project">
+                <h3>Название проекта</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+            </div>
                 <input type="submit" value="Visit live site" class="visit_live">
             </div>
-        </div>
     </div>
             <!-- Расчет стоимости-->
     <div class="main_counter_five">
@@ -129,24 +129,28 @@
             <h2>Расчет стоимости</h2>
             <div class="counter_site">
                 <h3>Тип сайта</h3>
-                <select name="type" id="type-select" >
-                    <option value="">Выберите пункт...</option>
+                <select name="type" id="type-select" disabled >
+                    <option value=""  >Выберите пункт...</option>
                 </select>
             </div>
-            <div class="counter_dsgn">
+            <div class="counter_dsgn" >
                 <h3>Дизайн</h3>
-                <select name="type" id="type-select" >
-                    <option value="">Выберите пункт...</option>
+                <select name="type" id="type-select" disabled >
+                    <option value="" >Выберите пункт...</option>
                 </select>
             </div>
-            <div class="counter_adaptive">
+            <div class="counter_adaptive" >
                 <h3>Адаптивность</h3>
-                <select name="type" id="type-select" >
+                <select name="type" id="type-select" disabled>
                     <option value="">Выберите пункт...</option>
                 </select>
             </div>
-            <p>Сроки</p>
-            <p>Стоимость</p>
+            <div class="counter_underline">
+                <div class="counter_left">
+                    <p>Сроки</p>
+                    <p>Стоимость</p>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -155,24 +159,25 @@
     <div class="main_statistic_six">
         <div class="main_container">
             <h2>Немоного статистики</h2>
+            <img src="../src/img/icon_line.png" alt="underline" class="icon_line">
             <div class="stats_bar">
                 <div class="stats_smile">
-                    <img src="#" alt="smile">
+                    <img src="../src/img/smile.png" alt="smile">
                     <h3>120</h3>
                     <p>Счастливых клиентов</p>
                 </div>
                 <div class="stats_slash">
-                    <img src="#" alt="slash">
+                    <img src="../src/img/slash_2.png" alt="slash">
                     <h3>4600</h3>
                     <p>Часов работы</p>
                 </div>
                 <div class="stats_checkbox">
-                    <img src="#" alt="checkbox">
+                    <img src="../src/img/checkbox.png" alt="checkbox">
                     <h3>340</h3>
                     <p>Проектов завершено</p>
                 </div>
                 <div class="stats_trophy">
-                    <img src="#" alt="trophy">
+                    <img src="../src/img/winner.png" alt="trophy">
                     <h3>23</h3>
                     <p>Наград получено</p>
                 </div>
@@ -185,10 +190,18 @@
     <div class="main_feedback_seven">
         <div class="main_container">
             <h2>Отзывы</h2>
+            <img src="../src/img/icon_line.png" alt="line" class="icon_line">
+            <div class="client_feed">
+
+            </div>
             <div class="client_feedback">
-                <img src="#" alt="">
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
-                <p>Михаил, Ген директор ПАО "Газпром"</p>
+                <p><span class="cl_span">Михаил</span>, Ген директор ПАО "Газпром"</p>
+            </div>
+            <div class="wheel">
+                <div class="wh1"></div>
+                <div class="wh2"></div>
+                <div class="wh3"></div>
             </div>
         </div>
     </div>
@@ -198,49 +211,40 @@
     <div class="main_contacts_eight">
         <div class="main_container">
             <h2>Мои контакты</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit exercitationem quasi quisquam veniam temporibus sed dolor.e</p>
+            <img src="../src/img/icon_line.png" alt="underline" class="icon_line">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur odit exercitationem quasi quisquam veniam temporibus sed dolor.</p>
             <ul class="contacts_feedback">
                 <li>
-                    <img src="#" alt="">
-                    <span>Москоу Сити, <br> 94 этаж</span>
+                    <img src="../src/img/geo.png" alt="geo">
+                    <p>Москоу Сити, <br> 94 этаж</p>
                 </li>
                 <li>
-                    <img src="#" alt="">
-                    idontknowwhoareu@gmail.com
+                    <img src="../src/img/email.png" alt="Email">
+                    <p>idontknowwhoareu@gmail.com</p>
                 </li>
                 <li>
-                    <img src="#" alt="">
+                    <img src="../src/img/telephone.png" alt="telephone">
                     <p>+7 (999) 999-99-99</p>
                 </li>
             </ul>
-            <h2>Оставьте мне сообщение</h2>
-            <ul class="client_feedback_form">
-                <li>
+            <h3>Оставьте мне сообщение</h3>
+            <div class="client_feedback_form">
+                <div class="feed_top">
                     <input type="text" name="cl_Name" id="cl_Name1" placeholder="Имя">
-                </li>
-                <li>
                     <input type="text" name="cl_Email" id="cl_Email1" placeholder="Email">
-                </li>
-                <li>
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
-                </li>
-            </ul>
+                </div>
+                <div class="feed_bottom">
+                    <textarea name="" id="fed_bot1" cols="40" rows="10" placeholder="Сообщение"></textarea>
+                </div>
+            </div>
             <input type="submit" name="cl_Submit" id="cl_submit1" value="Отправить">
-            <ul class="logos_footer">
-                <li>
-                    <img src="#" alt="fb">
-                </li>
-                <li>
-                    <img src="#" alt="fb">
-                </li>
-                <li>
-                    <img src="#" alt="fb">
-                </li>
-                <li>
-                    <img src="#" alt="fb">
-                </li>
-            </ul>
         </div>
     </div>
+
+    <!-- Footer-->
+
+    <footer class="footer">
+            <p>Copyright 2022, <span>Igor Bogachev</span></p>
+    </footer>
 </body>
 </html>
